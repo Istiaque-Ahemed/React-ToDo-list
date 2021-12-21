@@ -1,0 +1,40 @@
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.todo-item {
+    list-style: none;
+    background-color: #fff;
+    display: inline;
+    padding: 9px 29px;
+    margin-top: 40px;
+    width: 100px;
+}
+.complete-btn{
+    background-color: #00C7A3;
+    outline: none;
+    padding: 6px 16px;
+    border: none;
+}
+.trash-btn{
+    background-color: #bd4925;
+    outline: none;
+    padding: 6px 16px;
+    border: none;
+}
+.complete-btn:hover{
+    background-color: #13806c;
+}
+.trash-btn:hover{
+    background-color: #792207;
+}
+.icon{
+    color: white;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}

@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter-todo {
+  height: 37px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+}
+.selectdiv select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding-right: 35px;
+  background-image: url("https://i.ibb.co/TwPv69k/down.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 4px) center;
+  background-size: 26px;
+}
