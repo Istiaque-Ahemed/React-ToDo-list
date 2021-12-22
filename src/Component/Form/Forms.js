@@ -1,6 +1,6 @@
 import React from 'react';
 import './Forms.css'
-import { Form, Button, Dropdown as div } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
 
